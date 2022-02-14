@@ -95,7 +95,7 @@
         window,
         document,
         "script",
-        "https://vault.pactsafe.io/ps.min.js",
+        "https://local-vault.pactsafe.io/ps.min.js",
         "https://d3l1mqnl5xpsuc.cloudfront.net/ps.min.js",
         "_ps",
         4000
@@ -118,8 +118,8 @@
     -->
     <script>
       // We'll need a couple of things to get started from PactSafe.
-      var siteAccessId = "1e8ddd9d-f32c-4dc7-9c13-62095e6d4317"; // A PactSafe Site Access ID
-      var groupKey = "clickwrap-example"; // A PactSafe Group Key.
+      var siteAccessId = "fbce2998-4c58-4bf0-8b07-066e9734a895"; // A PactSafe Site Access ID
+      var groupKey = "embedded-lzkp8gbqo"; // A PactSafe Group Key.
 
       // Creates a Site object with the a PactSafe Site Access ID.
       _ps("create", siteAccessId);
@@ -144,6 +144,9 @@
       // you may want to prevent submission if needed.
       _ps.on("error", function (message, event_type, context) {
         // Handle any errors.
+        console.log(arguments);
+      });
+      _ps.on("all", function(event) {
         console.log(arguments);
       });
 
