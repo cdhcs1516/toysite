@@ -2434,6 +2434,7 @@
           data[_custom_data] = cus;
           self.send('updated', data);
         }
+        console.log('check status: ', checked? "yes" : "no");
         if (checked) self.send(self.get(_policy) ? 'opted_in' : 'agreed', data);
         else if (self.get(_allow_disagreed)) self.send('disagreed', data);
       }
