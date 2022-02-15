@@ -4,7 +4,7 @@ import * as S from "./Body.styled";
 export default function Body() {
   return (
     <S.BodyContainer>
-      <h1>PactSafe Example with a Form</h1>
+      <h1>PactSafe Example with a Form Feb 14th, 6pm</h1>
       <form id="myPageForm">
         <div className="form-group">
           <label htmlFor="exampleInputEmail1">Email address</label>
