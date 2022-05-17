@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/toysite/static/css/main.e6c13ad2.css",
-    "main.js": "/toysite/static/js/main.cef443b5.js",
+    "main.js": "/toysite/static/js/main.bc7e963f.js",
     "static/js/787.853c2e80.chunk.js": "/toysite/static/js/787.853c2e80.chunk.js",
     "index.html": "/toysite/index.html",
     "main.e6c13ad2.css.map": "/toysite/static/css/main.e6c13ad2.css.map",
-    "main.cef443b5.js.map": "/toysite/static/js/main.cef443b5.js.map",
+    "main.bc7e963f.js.map": "/toysite/static/js/main.bc7e963f.js.map",
     "787.853c2e80.chunk.js.map": "/toysite/static/js/787.853c2e80.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.cef443b5.js"
+    "static/js/main.bc7e963f.js"
   ]
 }
