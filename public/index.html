@@ -95,8 +95,7 @@
         window,
         document,
         "script",
-        "https://raw.githubusercontent.com/cdhcs1516/toysite/main/src/ps.js",
-        // "https://local-vault.pactsafe.io/ps.min.js",
+        'https://local-vault.pactsafe.io/ps.min.js',
         "https://d3l1mqnl5xpsuc.cloudfront.net/ps.min.js",
         "_ps",
         4000
@@ -120,7 +119,7 @@
     <script>
       // We'll need a couple of things to get started from PactSafe.
       var siteAccessId = "fbce2998-4c58-4bf0-8b07-066e9734a895"; // A PactSafe Site Access ID
-      var groupKey = "embedded-lzkp8gbqo"; // A PactSafe Group Key.
+      var groupKey = "group-r1b3zvzp5"; // A PactSafe Group Key.
 
       // Creates a Site object with the a PactSafe Site Access ID.
       _ps("create", siteAccessId);
@@ -132,7 +131,6 @@
 
       // Options set on the PactSafe Group.
       var groupOptions = {
-        container_selector: "pactsafeContainer", // ID of where we want the clickwrap to load in the page.
         display_all: true, // Always display the contracts, even if previously signed by the Signer.
         signer_id_selector: "exampleInputEmail1", // Uses the email input field value as the Signer ID and listen to the field.
         test_mode: true, // Allows you to clear test data from the PactSafe web app.
@@ -140,6 +138,8 @@
 
       // Load a Clickwrap group into the page.
       _ps("load", groupKey, groupOptions);
+
+      _ps('set', 'snapshot_location', 'location-y6-ggs5we');
 
       // If there's an error from the PactSafe snippet,
       // you may want to prevent submission if needed.

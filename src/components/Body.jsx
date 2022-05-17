@@ -24,7 +24,7 @@ export default function Body() {
         </div>
 
         {/* <!-- Note the div container here! --> */}
-        <div id="pactsafeContainer"></div>
+        <div id="test_location_associated_group"></div>
 
         <button type="submit" className="btn btn-primary">
           Submit
