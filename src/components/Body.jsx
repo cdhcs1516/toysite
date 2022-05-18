@@ -2,7 +2,7 @@ import React from "react";
 import * as S from "./Body.styled";
 
 export default function Body() {
-  const currTime = Date.now().toString();
+  const currTime = Date().toString();
   return (
     <S.BodyContainer>
       <h1>PactSafe Example with a Form at {currTime}</h1>
