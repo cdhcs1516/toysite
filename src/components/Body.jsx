@@ -2,9 +2,10 @@ import React from "react";
 import * as S from "./Body.styled";
 
 export default function Body() {
+  const currTime = Date.now().toString();
   return (
     <S.BodyContainer>
-      <h1>PactSafe Example with a Form Feb 14th, 6pm</h1>
+      <h1>PactSafe Example with a Form at {currTime}</h1>
       <form id="myPageForm">
         <div className="form-group">
           <label htmlFor="exampleInputEmail1">Email address</label>
