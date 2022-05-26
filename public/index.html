@@ -119,7 +119,7 @@
     <script>
       // We'll need a couple of things to get started from PactSafe.
       var siteAccessId = "4c4208f4-8e46-42f0-a223-715aaddd057b"; // A PactSafe Site Access ID
-      var groupKey1 = "embedded-z3q4hdu0x"; // A PactSafe Group Key.
+      var groupKey = "embedded-z3q4hdu0x"; // A PactSafe Group Key.
       // var groupKey2 = "embedded-lzkp8gbqo";
       // var groupKey3 = "";
 
@@ -132,7 +132,7 @@
       _ps.debug = true;
 
       // Options set on the PactSafe Group.
-      var groupOptions1 = {
+      var groupOptions = {
         display_all: true, // Always display the contracts, even if previously signed by the Signer.
         container_selector: 'test_location_associated_group',
         signer_id_selector: "exampleInputEmail1", // Uses the email input field value as the Signer ID and listen to the field.
@@ -147,7 +147,7 @@
       // };
 
       // Load a Clickwrap group into the page.
-      _ps("load", groupKey1, groupOptions1);
+      _ps("load", groupKey, groupOptions);
 
       _ps('set', 'snapshot_location', 'location-wjxtyikpx');
 
