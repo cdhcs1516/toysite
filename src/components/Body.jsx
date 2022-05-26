@@ -14,7 +14,7 @@ export default function Body() {
         {/* <!-- Note the div container here! --> */}
         <div id='test_location_associated_group'></div>
 
-        <S.HorizontalLine />
+        {/* <S.HorizontalLine />
 
         <h2>Clickwrap associated to snapshot config</h2>
         <div className='form-group'>
@@ -22,7 +22,6 @@ export default function Body() {
           <input type='email' className='form-control' id='exampleInputEmail2' />
         </div>
 
-        {/* <!-- Note the div container here! --> */}
         <div id='test_config_associated_group'></div>
 
         <S.HorizontalLine />
@@ -33,8 +32,7 @@ export default function Body() {
           <input type='email' className='form-control' id='exampleInputEmail3' />
         </div>
 
-        {/* <!-- Note the div container here! --> */}
-        <div id='test_no_associated_group'></div>
+        <div id='test_no_associated_group'></div> */}
 
         <button type='submit' className='btn btn-primary'>
           Submit
